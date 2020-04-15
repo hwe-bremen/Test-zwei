@@ -296,7 +296,7 @@ margin: 0 25% 0 25%;
     min-height: calc(100vH - 50rem);
 }
 
-.mein-element {
+/*.mein-element {
     opacity: 0;
 	transition: all 1s ease-in-out;
   }
@@ -333,7 +333,7 @@ margin: 0 25% 0 25%;
   .mein-element-kreis.visible {
     transform:translateX(0);
     opacity: 1;
-  }
+  }*/
   #box4.sichtbar {
       display: none;
   }
