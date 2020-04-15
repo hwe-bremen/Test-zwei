@@ -33,3 +33,12 @@ function isElementInViewport(element) {
     var boxVier = document.getElementById("box4");  
     boxVier.classList.toggle("sichtbar");
      }
+
+var elemIsVisible = document.querySelector(".box1").offsetHeight;
+window.onscroll = function () {
+   if (elemIsVisible > 0) {
+      document.querySelector(".box1a").classList.add("slideright");
+   }
+   window.onscroll = null;
+}
+
