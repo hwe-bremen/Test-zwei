@@ -136,11 +136,11 @@ h3 {
     min-height: 300px;
     box-shadow: 15px 15px 0px 0px black;
    position: absolute; 
-   left: -200px;
-   transition: left 3s 3s;	
+   top 200px;
+   transition: top 3s 3s;	
 }
 .slideright {
-   left: 70%;
+   top: -200px;
 }
 
 .box1a:focus  {
