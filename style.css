@@ -142,7 +142,7 @@ h3 {
 }
 .slideright {
    transform: translateY(-200px);
-
+}
 .box1a:focus  {
     animation: elastic-grow .5s;  
 }
