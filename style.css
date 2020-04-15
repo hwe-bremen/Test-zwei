@@ -135,9 +135,9 @@ h3 {
     height: 550px;
     min-height: 300px;
     box-shadow: 15px 15px 0px 0px black;
-   position: absolute; 
+  /* position: absolute; 
    top: 50px;
-   transition: top 3s 3s;	
+   transition: top 3s 3s;*/	
 }
 .slideright {
    top: -200px;
