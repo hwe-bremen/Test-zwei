@@ -141,7 +141,7 @@ h3 {
    transition: top 3s 3s;*/
 }
 .slideright {
-   transform: translateY(200px);
+   transform: translateY(-200px);
 
 .box1a:focus  {
     animation: elastic-grow .5s;  
