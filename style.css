@@ -135,13 +135,13 @@ h3 {
     height: 550px;
     min-height: 300px;
     box-shadow: 15px 15px 0px 0px black;
-    position: relative; 
- /*  top: 50px;
+    position: relative;
+    transition: transform cubic-bezier(0.5, 1.8, 0.8, 0.5) 2s;
+	/*  top: 50px;
    transition: top 3s 3s;*/
 }
 .slideright {
-   top: -200px;
-}
+   transform: translateY(200px);
 
 .box1a:focus  {
     animation: elastic-grow .5s;  
