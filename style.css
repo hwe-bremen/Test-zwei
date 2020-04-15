@@ -115,7 +115,7 @@ h3 {
 
 /*Card-Design*/
 
-#box1 {
+.box1 {
     position: relative;
     display: flex;
     flex-direction: row;
