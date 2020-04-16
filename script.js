@@ -34,12 +34,19 @@ function isElementInViewport(element) {
     boxVier.classList.toggle("sichtbar");
      }
 
-var elemIsVisible = document.querySelector(".box1, .box3-content").offsetHeight;
+var elemIsVisible = document.querySelector(".box1").offsetHeight;
 window.onscroll = function () {
    if (elemIsVisible > 0) {
       document.querySelector(".box1a").classList.add("slideright");
        document.querySelector(".box1ab").classList.add("slideright");
          document.querySelector(".box1ac").classList.add("slideright");
+   }
+   window.onscroll = null;
+}
+
+var elemIsVisible = document.querySelector(".box3-content").offsetHeight;
+window.onscroll = function () {
+   if (elemIsVisible > 0) {
             document.querySelector(".box3a").classList.add("slidehorizont");
    }
    window.onscroll = null;
