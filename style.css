@@ -299,6 +299,7 @@ h3 {
     text-align: center;
     border-radius: 200px;
     box-shadow: 15px 15px 0px 0px black;
+    transition: transform cubic-bezier(0.5, 1.8, 0.8, 0.5) 2s;
 }
 #box4 {
     display: flex;
