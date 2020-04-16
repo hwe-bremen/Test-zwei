@@ -1,4 +1,4 @@
-function isElementInViewport(element) {
+ /* function isElementInViewport(element) {
     var rect = element.getBoundingClientRect();
     return (
      rect.top >= 0 &&
@@ -15,9 +15,9 @@ function isElementInViewport(element) {
     for (var i = 0; i < elements.length; i++) {
      if (isElementInViewport(elements[i])) {
     elements[i].classList.add("visible");
-   }
+   } /* 
    
-    /* Else-Bedinung entfernen, um .visible nicht wieder zu löschen, wenn das Element den Viewport verlässt. */
+    /* Else-Bedinung entfernen, um .visible nicht wieder zu löschen, wenn das Element den Viewport verlässt. 
      else { 
       elements[i].classList.remove("visible");
      }
@@ -25,7 +25,7 @@ function isElementInViewport(element) {
    }
     
    window.addEventListener("load", callbackFunc);
-   window.addEventListener("scroll", callbackFunc);
+   window.addEventListener("scroll", callbackFunc); */
 
  
    document.getElementById('button-click').addEventListener('click', elementSichtbar);
