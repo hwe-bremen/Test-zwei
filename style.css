@@ -143,10 +143,12 @@ h3 {
 .box1ab { 
     position: relative;
     transition: transform cubic-bezier(0.5, 1.8, 0.8, 0.5) 2s;
+    transition-duration: 1s;
 }
 .box1ac { 
     position: relative;
     transition: transform cubic-bezier(0.5, 1.8, 0.8, 0.5) 2s;
+    transition-duration: 1.5s;	
 }
 .slideright {
    transform: translateY(-200px);
