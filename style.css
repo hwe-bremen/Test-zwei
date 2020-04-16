@@ -353,6 +353,10 @@ margin: 0 25% 0 25%;
     transform:translateX(0);
     opacity: 1;
   }*/
+
+.slidehorizont {
+   transform: translateX(-90%);
+ }
   #box4.sichtbar {
       display: none;
   }
