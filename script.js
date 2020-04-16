@@ -43,12 +43,3 @@ window.onscroll = function () {
    }
    window.onscroll = null;
 }
-
-var elemIsVisibleCircle = document.querySelector(".box3-content").offsetHeight;
-window.onscroll = function () {
-   if (elemIsVisibleCircle > 0) {
-            document.querySelector(".box3a").classList.add("slidehorizont");
-   }
-   window.onscroll = null;
-}
-
