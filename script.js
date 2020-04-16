@@ -34,10 +34,10 @@ function isElementInViewport(element) {
     boxVier.classList.toggle("sichtbar");
      }
 
-var elemIsVisible = document.querySelectorAll(".box1").offsetHeight;
+var elemIsVisible = document.querySelector(".box1").offsetHeight;
 window.onscroll = function () {
    if (elemIsVisible > 0) {
-      document.querySelectorAll(".box1a, .mein-element").classList.add("slideright");
+      document.querySelectorAll(".box1a").classList.add("slideright");
    }
    window.onscroll = null;
 }
