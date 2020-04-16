@@ -125,7 +125,7 @@ h3 {
 /*div.box1a:nth-child(n+3){
     display: none;
 }*/
-.box1a {
+.box1a .box1ab .box1ac {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
