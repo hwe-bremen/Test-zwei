@@ -47,7 +47,7 @@ window.onscroll = function () {
  var elemIsVisibleCircle = document.querySelector(".box1").offsetHeight;
 window.onscroll = function () {
    if (elemIsVisibleCircle > 0) {
-         document.querySelector(".box3a").classList.add("slidehorizont");
+         document.querySelector(".box3ab").classList.add("slidehorizont");
    }
    window.onscroll = null;
 }
