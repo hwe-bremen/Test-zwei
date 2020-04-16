@@ -8,7 +8,7 @@ function isElementInViewport(element) {
     );
    }
    
-   var elements = document.querySelectorAll(".mein-element, .mein-element-kreis");
+   var elements = document.querySelectorAll(".mein-element");
 
     
    function callbackFunc() {
