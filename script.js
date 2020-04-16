@@ -37,7 +37,9 @@ function isElementInViewport(element) {
 var elemIsVisible = document.querySelector(".box1").offsetHeight;
 window.onscroll = function () {
    if (elemIsVisible > 0) {
-      document.querySelectorAll(".box1a").classList.add("slideright");
+      document.querySelector(".box1a").classList.add("slideright");
+       document.querySelector(".box1ab").classList.add("slideright");
+         document.querySelector(".box1ac").classList.add("slideright");
    }
    window.onscroll = null;
 }
