@@ -40,7 +40,7 @@ window.onscroll = function () {
       document.querySelector(".box1a").classList.add("slideright");
        document.querySelector(".box1ab").classList.add("slideright");
          document.querySelector(".box1ac").classList.add("slideright");
-            document.querySelector(".box1ac").classList.add("slidehorizont");
+            document.querySelector(".box3a").classList.add("slidehorizont");
    }
    window.onscroll = null;
 }
