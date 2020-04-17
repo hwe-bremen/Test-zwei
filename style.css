@@ -353,7 +353,7 @@ margin: 0 25% 0 25%;
   .mein-element-kreis.visible {
     transform:translateX(0);
     opacity: 1;
-  }*/
+
 
 .box3ab {
     box-shadow: 15px 15px 0px 0px black;
@@ -363,8 +363,11 @@ margin: 0 25% 0 25%;
     opacity: 0;
     transition: all 1s ease-in-out;
   }
-.slidehorizont {
-   transform: translateX(-90%);
+.slidehorizont:nth-child(1) {
+   transform: translateX(100%);
+ }
+.slidehorizont:nth-child(1) {
+   transform: translateX(-10%);
  }
 .slidehorizont.visible {
     transform:translateX(0);
