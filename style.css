@@ -364,10 +364,10 @@ margin: 0 25% 0 25%;
     transition: transform cubic-bezier(0.5, 1.8, 0.8, 0.5) 2s;
   }
 .slidehorizont{
-   transform: translateX(-120%);
+   transform: translateX(-600px);
  }
 .slidehorizont.box3ac {
-   transform: translateX(120%);
+   transform: translateX(600px);
  }
 .slidehorizont.visible {
     transform:translateX(0);
