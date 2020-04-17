@@ -366,7 +366,7 @@ margin: 0 25% 0 25%;
 .slidehorizont{
    transform: translateX(80%);
  }
-.slidehorizont ~ box3ac {
+.slidehorizont ~ .box3ac {
    transform: translateX(-80%);
  }
 .slidehorizont.visible {
