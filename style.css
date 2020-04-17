@@ -363,11 +363,11 @@ margin: 0 25% 0 25%;
     opacity: 0;
     transition: transform cubic-bezier(0.5, 1.8, 0.8, 0.5) 2s;
   }
-.box3 .slidehorizont:nth-child(1) {
-   transform: translateX(100%);
+.box3ab .slidehorizont {
+   transform: translateX(80%);
  }
-.box3 .slidehorizont:nth-child(2) {
-   transform: translateX(-100%);
+.box3ac .slidehorizont {
+   transform: translateX(-80%);
  }
 .slidehorizont.visible {
     transform:translateX(0);
