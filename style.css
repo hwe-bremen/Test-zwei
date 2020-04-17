@@ -301,10 +301,6 @@ h3 {
     box-shadow: 15px 15px 0px 0px black;
     transition: transform cubic-bezier(0.5, 1.8, 0.8, 0.5) 2s;
 }
-.box3ab {
-    box-shadow: 15px 15px 0px 0px black;
-    transition: transform cubic-bezier(0.5, 1.8, 0.8, 0.5) 2s;
-}
 #box4 {
     display: flex;
     align-content: center;
@@ -359,6 +355,10 @@ margin: 0 25% 0 25%;
     opacity: 1;
   }*/
 
+.box3ab {
+    box-shadow: 15px 15px 0px 0px black;
+    transition: transform cubic-bezier(0.5, 1.8, 0.8, 0.5) 2s;
+}*/
  .slidehorizont {
     opacity: 0;
     transition: all 1s ease-in-out;
