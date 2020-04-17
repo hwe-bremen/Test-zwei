@@ -363,10 +363,10 @@ margin: 0 25% 0 25%;
     opacity: 0;
     transition: all 1s ease-in-out;
   }
-.slidehorizont:nth-child(1) {
+.box.slidehorizont:nth-child(1) {
    transform: translateX(100%);
  }
-.slidehorizont:nth-child(1) {
+.box3.slidehorizont:nth-child(2) {
    transform: translateX(-10%);
  }
 .slidehorizont.visible {
