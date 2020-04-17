@@ -361,13 +361,13 @@ margin: 0 25% 0 25%;
 }*/
  .slidehorizont {
     opacity: 0;
-    transition: all 1s ease-in-out;
+    transition: transform cubic-bezier(0.5, 1.8, 0.8, 0.5) 2s;
   }
-.box.slidehorizont:nth-child(1) {
+.box3 .slidehorizont:nth-child(1) {
    transform: translateX(100%);
  }
-.box3.slidehorizont:nth-child(2) {
-   transform: translateX(-10%);
+.box3 .slidehorizont:nth-child(2) {
+   transform: translateX(-100%);
  }
 .slidehorizont.visible {
     transform:translateX(0);
