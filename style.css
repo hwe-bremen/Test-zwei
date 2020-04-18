@@ -419,7 +419,7 @@ h3 {
       .hamburger-menu:hover .bottom {
         transform: rotate(-45deg);
     }
-    ul#nav:hover {
+    .sichtbar-nav {
         display: block;
           }             
         ul#nav {
