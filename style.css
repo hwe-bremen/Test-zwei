@@ -15,6 +15,12 @@ body {
 }
 
 /*Menue*/
+
+div.hamburger-menu {
+    display: none;
+}
+
+
 ul#nav{
     margin: 0px;
     height: 40px;
@@ -380,42 +386,41 @@ margin: 0 25% 0 25%;
 
 
 
-  @media only screen and (min-device-width: 900px) {
+  @media only screen and (min-width: 980px ) {
       ul#nav { display: none; }
-	.column { width: 48%; float: left; }
+
+      .hamburger-menu {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 2.5rem;
+        width: 2.5rem;
+        cursor: pointer;
+      }
+      
+      .hamburger-menu .bar {
+        height: 5px;
+        background: white;
+        border-radius: 5px;
+        margin: 3px 0px;
+        transform-origin: left;
+        transition: all 0.5s;
+      }
+      
+      .hamburger-menu:hover .top {
+        transform: rotate(45deg);
+      }
+      
+      .hamburger-menu:hover .middle {
+        opacity: 0;
+      }
+      
+      .hamburger-menu:hover .bottom {
+        transform: rotate(-45deg);
+      }
+    
+
 }
 
-
-  .hamburger-menu{
-      display: none;
-  }
-  .hamburger-menu {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: 2.5rem;
-    width: 2.5rem;
-    cursor: pointer;
-  }
   
-  .hamburger-menu .bar {
-    height: 5px;
-    background: black;
-    border-radius: 5px;
-    margin: 3px 0px;
-    transform-origin: left;
-    transition: all 0.5s;
-  }
-  
-  .hamburger-menu:hover .top {
-    transform: rotate(45deg);
-  }
-  
-  .hamburger-menu:hover .middle {
-    opacity: 0;
-  }
-  
-  .hamburger-menu:hover .bottom {
-    transform: rotate(-45deg);
-  }
