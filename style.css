@@ -14,79 +14,6 @@ body {
     background-color: hsl(45, 23%, 90%);
 }
 
-/*Menue*/
-
-div.hamburger-menu {
-    display: none;
-}
-
-
-ul#nav{
-    margin: 0px;
-    height: 40px;
-    background-color: black;
-    z-index: 10;
-    position: sticky;
-    top: 0;
-}
-li.menue {
-    float: left;
-    margin-left: 4em;
-   }
-.hovermenue:hover {
-    margin: 0px;
-    padding: 6px 10px;
-    background-color: blueviolet;
-}
-li a {
-    color: white;
-    font-size: 1.1rem;
-    line-height: 250%; 
-    text-decoration:none;
-}
-#subnav li a {
-    color: black;   
-}
-#subnav li {
-    text-decoration:none;
-    list-style: none;
-    padding: 0.2em 0.4em;
-    border-bottom: 1px solid black;
-}
-#subnav li:hover  {
-    background-color: gray;
-    text-decoration:none;
-    list-style: none;
-    padding: 0.2em 0.4em;
-    border-bottom: 1px solid black;
-}
-.menue ul{
-    position: relative;
-    display: none;
-    box-shadow:  .4em .4em 0em 0em black;
-   
-}
-.menue:hover ul{
-    padding-left: 0em;
-    display: block;
-    border: solid 2px black;
-    background-color: white;
-    transform: translateY(.5em);
-    color: black;
-
-}
-.menue ul::before {
-    content: "";
-    position: absolute;
-    top: -.5em; left: 1em;
-    padding: .35em;
-    background: inherit;
-    border: inherit;
-    border-right: 0;
-    border-bottom: 0;
-    transform: rotate(45deg);
-}
-/*End Menue*/
 
 
 
@@ -383,10 +310,85 @@ margin: 0 25% 0 25%;
       display: none;
   }
 
+@media only screen and (min-width: 800px ) {
+      /*Menue*/
+
+    div.hamburger-menu {
+    display: none;
+    }
 
 
+    ul#nav{
+    margin: 0px;
+    height: 40px;
+    background-color: black;
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    }
+    li.menue {
+        float: left;
+        margin-left: 4em;
+    }
+    .hovermenue:hover {
+        margin: 0px;
+        padding: 6px 10px;
+        background-color: blueviolet;
+    }
+    li a {
+        color: white;
+        font-size: 1.1rem;
+        line-height: 250%; 
+        text-decoration:none;
+    }
+    #subnav li a {
+        color: black;   
+    }
+    #subnav li {
+        text-decoration:none;
+        list-style: none;
+        padding: 0.2em 0.4em;
+        border-bottom: 1px solid black;
+    }
+    #subnav li:hover  {
+        background-color: gray;
+        text-decoration:none;
+        list-style: none;
+        padding: 0.2em 0.4em;
+        border-bottom: 1px solid black;
+    }
+    .menue ul{
+        position: relative;
+        display: none;
+        box-shadow:  .4em .4em 0em 0em black;
+    
+    }
+    .menue:hover ul{
+        padding-left: 0em;
+        display: block;
+        border: solid 2px black;
+        background-color: white;
+        transform: translateY(.5em);
+        color: black;
 
-  @media only screen and (min-width: 980px ) {
+    }
+    .menue ul::before {
+        content: "";
+        position: absolute;
+        top: -.5em; left: 1em;
+        padding: .35em;
+        background: inherit;
+        border: inherit;
+        border-right: 0;
+        border-bottom: 0;
+        transform: rotate(45deg);
+    }
+
+}
+/*End Menue*/
+
+
+  @media only screen and (max-width: 800px)  {
       ul#nav { display: none; }
 
       .hamburger-menu {
