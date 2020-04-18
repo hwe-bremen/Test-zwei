@@ -5,36 +5,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Bitter:wght@700&family=Suez+One&display=swap');
 
 
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(45, 23%, 90%);
+}
+h1, h2, h3 {
+    font-family: 'Suez One', serif;  
+}
+h1 {
+    color: black;
+    font-size: calc(4em + 3vw);
+    letter-spacing: 0.05em;
+    margin: 4vh 3vw 0.5vh 1vw;
+}
+h2 {
+    color: black;
+    font-size: 350%;
+}
+h3 {
+    color: black;
+    font-size: 250%;
+    letter-spacing: 0.03em;
+}
 
 
 @media only screen and (min-width: 800px ) {
-
-    body {
-        height: 100%;
-        font-family: 'Roboto', sans-serif;
-        margin: 0px;
-        display: flex;
-        flex-direction: column;
-        background-color: hsl(45, 23%, 90%);
-    }
-    h1, h2, h3 {
-        font-family: 'Suez One', serif;  
-    }
-    h1 {
-        color: black;
-        font-size: calc(4em + 3vw);
-        letter-spacing: 0.05em;
-        margin: 4vh 3vw 0.5vh 1vw;
-    }
-    h2 {
-        color: black;
-        font-size: 350%;
-    }
-    h3 {
-        color: black;
-        font-size: 250%;
-        letter-spacing: 0.03em;
-    }
    
     /*Menue*/
     .hamburger-menu {
@@ -105,7 +104,7 @@
         border-bottom: 0;
         transform: rotate(45deg);
     }
-
+}
     /*End Menue*/
 
     #box {
@@ -378,7 +377,7 @@
     #box4.sichtbar {
         display: none;
     }
-}
+
 
 
 @media only screen and (max-width: 800px)  {
