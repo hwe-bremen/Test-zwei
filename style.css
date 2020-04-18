@@ -426,13 +426,12 @@ h3 {
         width: 100%;
         z-index: 5;
         position: sticky;
-        transition: all 0.5s;
-        transform: translateY(0px);
         transform: translateY(40px);
         top:  0;
         }
-        li.menue {   
-         background-color: hsl(45, 23%, 90%);
+        li.menue { 
+        text-decoration:none;  
+        background-color: blueviolet;
          margin-left: 4em;
         }
         .hovermenue:hover {
