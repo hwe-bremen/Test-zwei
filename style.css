@@ -418,10 +418,9 @@ h3 {
         transform: rotate(-45deg);
     }
     .sichtbar-nav {
-        display: block;
+        display: none;
           }             
         ul#nav {
-        display:none;
         border: 1px red solid;
         margin: 0px;
         height: 40px;
