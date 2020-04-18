@@ -36,9 +36,6 @@ h3 {
 @media only screen and (min-width: 800px ) {
    
     /*Menue*/
-    .hamburger-menu {
-    display: none;
-    }
     ul#nav {
     margin: 0px;
     height: 40px;
@@ -384,8 +381,9 @@ h3 {
     ul#nav { 
         display: none; }
     #navmin { 
+        display: flex;
         flex-direction: row;
-        align-items: flex-end;
+        justify-content: flex-end;
         margin: 0px;
         height: 40px;
         background-color: black;
