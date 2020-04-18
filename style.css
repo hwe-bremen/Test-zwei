@@ -5,38 +5,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Bitter:wght@700&family=Suez+One&display=swap');
 
 
-body {
-    height: 100%;
-    font-family: 'Roboto', sans-serif;
-    margin: 0px;
-    display: flex;
-    flex-direction: column;
-    background-color: hsl(45, 23%, 90%);
-}
 
-
-
-
-h1, h2, h3 {
-    font-family: 'Suez One', serif;  
-}
-h1 {
-    color: black;
-    font-size: calc(4em + 3vw);
-    letter-spacing: 0.05em;
-    margin: 4vh 3vw 0.5vh 1vw;
-}
-h2 {
-    color: black;
-    font-size: 350%;
-}
-h3 {
-    color: black;
-    font-size: 250%;
-    letter-spacing: 0.03em;
-}
 
 @media only screen and (min-width: 800px ) {
+
+    body {
+        height: 100%;
+        font-family: 'Roboto', sans-serif;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        background-color: hsl(45, 23%, 90%);
+    }
+    h1, h2, h3 {
+        font-family: 'Suez One', serif;  
+    }
+    h1 {
+        color: black;
+        font-size: calc(4em + 3vw);
+        letter-spacing: 0.05em;
+        margin: 4vh 3vw 0.5vh 1vw;
+    }
+    h2 {
+        color: black;
+        font-size: 350%;
+    }
+    h3 {
+        color: black;
+        font-size: 250%;
+        letter-spacing: 0.03em;
+    }
    
     /*Menue*/
     div.hamburger-menu {
@@ -81,13 +79,13 @@ h3 {
         padding: 0.2em 0.4em;
         border-bottom: 1px solid black;
     }
-    .menue ul{
+    .menue ul {
         position: relative;
         display: none;
         box-shadow:  .4em .4em 0em 0em black;
     
     }
-    .menue:hover ul{
+    .menue:hover ul {
         padding-left: 0em;
         display: block;
         border: solid 2px black;
@@ -193,8 +191,6 @@ h3 {
         transform: rotate(135deg);
         transform-origin: 65% 82%;
     }
-
-
     .weiter {
         display: flex;
         align-items: center;
@@ -369,7 +365,7 @@ h3 {
         opacity: 0;
         transition: transform cubic-bezier(0.5, 1.8, 0.8, 0.5) 2s;
     }
-    .slidehorizont{
+    .slidehorizont {
     transform: translateX(-600px);
     }
     .slidehorizont.box3ac {
@@ -385,8 +381,9 @@ h3 {
 }
 
 
-  @media only screen and (max-width: 800px)  {
-      ul#nav { display: none; }
+@media only screen and (max-width: 800px)  {
+      ul#nav { 
+        display: none; }
 
       .hamburger-menu {
         display: flex;
@@ -414,12 +411,9 @@ h3 {
       .hamburger-menu:hover .middle {
         opacity: 0;
       }
-      
       .hamburger-menu:hover .bottom {
         transform: rotate(-45deg);
       }
-    
-
 }
 
   
