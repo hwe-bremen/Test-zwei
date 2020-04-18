@@ -380,7 +380,7 @@ margin: 0 25% 0 25%;
 
 
 
-  @media only screen and (min-device-width: 40em) {
+  @media only screen and (min-device-width: 900px) {
       ul#nav { display: none; }
 	.column { width: 48%; float: left; }
 }
