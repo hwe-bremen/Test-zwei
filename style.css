@@ -426,18 +426,19 @@ h3 {
         width: 100%;
         z-index: 5;
         position: sticky;
+        transition: all 0.5s;
+        transform: translateY(0px);
         transform: translateY(40px);
         top:  0;
         }
         li.menue {   
-         background-color: blueviolet;
+         background-color: hsl(45, 23%, 90%);
          margin-left: 4em;
-         transition: all 0.5s;
         }
         .hovermenue:hover {
             margin: 0px;
             padding: 6px 10px;
-              background-color: blueviolet;
+            background-color: blueviolet;
           }
           li a {
               color: white;
@@ -475,16 +476,5 @@ h3 {
               transform: translateY(.5em);
               color: black;
       
-          }
-          .menue ul::before {
-              content: "";
-              position: absolute;
-              top: -.5em; left: 1em;
-              padding: .35em;
-              background: inherit;
-              border: inherit;
-              border-right: 0;
-              border-bottom: 0;
-              transform: rotate(45deg);
           }
 }
