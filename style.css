@@ -385,6 +385,7 @@ h3 {
         flex-direction: row;
         justify-content: flex-end;
         margin: 0px;
+        padding: 2px 4px 2px 0;
         height: 40px;
         background-color: black;
         z-index: 10;
@@ -396,8 +397,8 @@ h3 {
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-between;
-        height: 2.5rem;
-        width: 2.5rem;
+        height: 2.3rem;
+        width: 2.3rem;
         cursor: pointer;
     }  
       .hamburger-menu .bar {
