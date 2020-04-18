@@ -377,6 +377,15 @@ margin: 0 25% 0 25%;
       display: none;
   }
 
+
+
+
+  @media only screen and (min-device-width: 40em) {
+      ul#nav { display: none; }
+	.column { width: 48%; float: left; }
+}
+
+
   .hamburger-menu{
       display: none;
   }
