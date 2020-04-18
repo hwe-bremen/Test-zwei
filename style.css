@@ -417,21 +417,22 @@ h3 {
       .hamburger-menu:hover .bottom {
         transform: rotate(-45deg);
     }
-    .sichtbar-nav {
+         .sichtbar-nav {
         display: none;
           }             
         ul#nav {
-        border: 1px red solid;
-        margin: 0px;
+        margin: 0px 8px 0px 8px;
         height: 40px;
-        z-index: 50;
+        width: 100%;
+        z-index: 5;
         position: sticky;
-        transform: translateY(0px);
+        transform: translateY(40px);
         top:  0;
         }
         li.menue {   
          background-color: blueviolet;
          margin-left: 4em;
+         transition: all 0.5s;
         }
         .hovermenue:hover {
             margin: 0px;
@@ -440,7 +441,7 @@ h3 {
           }
           li a {
               color: white;
-              font-size: 1.1rem;
+              font-size: 1.5rem;
               line-height: 250%; 
               text-decoration:none;
           }
