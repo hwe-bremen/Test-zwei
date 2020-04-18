@@ -365,10 +365,10 @@ h3 {
         transition: transform cubic-bezier(0.5, 1.8, 0.8, 0.5) 2s;
     }
     .slidehorizont {
-    transform: translateX(-600px);
+    transform: translateX(-25%);
     }
     .slidehorizont.box3ac {
-    transform: translateX(600px);
+    transform: translateX(25%);
     }
     .slidehorizont.visible {
         transform:translateX(0);
