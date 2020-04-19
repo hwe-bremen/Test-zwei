@@ -37,8 +37,8 @@ function isElementInViewport(element) {
     boxVier.classList.toggle("sichtbar");
      }
 
-     document.getElementById('nav-click').addEventListener('click', elementSichtbar);
-     function elementSichtbar() {   
+     document.getElementById('nav-click').addEventListener('click', elementSichtbarNav);
+     function elementSichtbarNav() {   
       var navMin = document.getElementById("nav");  
       navMin.classList.toggle("sichtbar-nav");
        }
