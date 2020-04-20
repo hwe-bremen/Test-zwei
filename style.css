@@ -86,7 +86,7 @@ h3 {
         display: block;
         border: solid 2px black;
         background-color: white;
-        transform: translateY(-.4em) translateX(-.5em);
+        transform: translateY(.1em) translateX(-.1em);
         color: black;
 
     }
