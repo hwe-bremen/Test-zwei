@@ -76,7 +76,7 @@ h3 {
         border-bottom: 1px solid black;
     }
     .menue ul {
-        position: relative;
+        position: absolute;
         display: none;
         box-shadow:  .4em .4em 0em 0em black;
     
