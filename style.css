@@ -314,9 +314,9 @@ h3 {
 		width: 10%;
 		height: 3%;
 		min-width: 150px;
-		min-height: 50px;
-		font-size: 100%;
-		padding: 0.5em;
+		min-height: 30px;
+		font-size: 130%;
+		padding: 1em
 		border-radius: 1em 1em;
 		background-color: tomato;
 	}

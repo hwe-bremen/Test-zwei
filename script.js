@@ -19,10 +19,10 @@ function isElementInViewport(element) {
    } 
      
    
-    /* Else-Bedinung entfernen, um .visible nicht wieder zu löschen, wenn das Element den Viewport verlässt. */
+    /* Else-Bedinung entfernen, um .visible nicht wieder zu löschen, wenn das Element den Viewport verlässt. 
      else { 
       elements[i].classList.remove("visible");
-     }
+     }*/
     }
    }
     
