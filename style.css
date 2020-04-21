@@ -317,8 +317,8 @@ h3 {
 		min-height: 50px;
 		font-size: 110%;
 		padding: 0.3em;
-		border-radius: 15% 15%;
-		background-color: tomato;
+		border-radius: 12% 25%;
+		background-color: tmato;
 	}
 	.buttonstylhover {
 		opacity: 0.9;
