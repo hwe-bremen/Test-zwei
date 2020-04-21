@@ -309,6 +309,11 @@ h3 {
     .content {
     margin: 0 25% 0 25%;
     }
+	.buttonstyle {
+		padding: 2em;
+		border-radius: 1em 1em
+		background-color: tomato;
+	}
     #box5 {
         background-color: black;
         min-height: calc(100vH - 50rem);
