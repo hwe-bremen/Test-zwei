@@ -321,10 +321,9 @@ h3 {
 		background-color: tomato;
 	}
 	.buttonstyle:hover {
-		opacity: 0.2;
+		opacity: 0.8;
 		transition: 1s ease-in-out;
-		transform: translateY(0.5em);
-		transform: translateX(0.8em);
+		transform: translateY(0.5em) translateX(0.8em);
 	}
     #box5 {
         background-color: black;
