@@ -313,11 +313,11 @@ h3 {
 		margin: 0 auto;
 		width: 10%;
 		height: 4%;
-		min-width: 150px;
-		min-height: 50px;
+		/*min-width: 150px;
+		min-height: 50px;*/
 		font-size: 110%;
 		padding: 0.3em
-		border-radius: 1em 1em;
+		border-radius: 1.5em 1.5em;
 		background-color: tomato;
 	}
     #box5 {
