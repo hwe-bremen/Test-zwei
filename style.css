@@ -320,7 +320,7 @@ h3 {
 		border-radius: 30% 30%;
 		background-color: tomato;
 	}
-	.buttonstylhover {
+	.buttonstyle:hover {
 		opacity: 0.9;
 		transition: 1s ease-in-out;
 		transform: translate(0.5em -0.8em);
