@@ -317,7 +317,7 @@ h3 {
 		min-height: 50px;
 		font-size: 110%;
 		padding: 0.3em;
-		border-radius: 30% 30%;
+		border-radius: 20px 20px
 		background-color: tomato;
 	}
 	.buttonstyle:hover {
