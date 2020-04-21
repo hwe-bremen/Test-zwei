@@ -313,12 +313,17 @@ h3 {
 		margin: 0 auto;
 		width: 10%;
 		height: 5%;
-		/*min-width: 150px;
-		min-height: 50px;*/
+		min-width: 150px;
+		min-height: 50px;
 		font-size: 110%;
 		padding: 0.3em;
 		border-radius: 1.5em 1.5em;
 		background-color: tomato;
+	}
+	.buttonstyle:hover {
+		transition: 1s ease-in-out;
+		transform: translate(0.3em 0.3e,);
+	1
 	}
     #box5 {
         background-color: black;
