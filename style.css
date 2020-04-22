@@ -248,7 +248,7 @@ h3 {
     }
 
     h3 {
-        padding: 0.5em 0 0 0.5em;
+        padding: 0.5em 0 0.5em 0;
         border-bottom: 5px solid black;
 		border-top: 5px solid black;
     }
