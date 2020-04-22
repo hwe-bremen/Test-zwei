@@ -326,12 +326,10 @@ h3 {
 	.buttonstylehover {
 		opacity: 0.8;
 		transition: 1s ease-in-out;
-		transform: translateX(0.8em);
-		font-size: 155%;
+		transform: translateX(-0.8em);
 	}
 	.buttonstyle:hover {
-	transition: 1s ease-in-out;
-	font-size: 150%;
+	    font-size: 130%;
 	}
     #box5 {
         background-color: black;
