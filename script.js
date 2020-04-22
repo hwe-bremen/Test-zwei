@@ -29,16 +29,6 @@ function isElementInViewport(element) {
    window.addEventListener("load", callbackFunc);
    window.addEventListener("scroll", callbackFunc); 
    
-   
-/*document.getElementById('button-click').addEventListener('click', elementSichtbar);
-   function elementSichtbar() {   
-    var boxVier = document.getElementById("box4"); 
-    boxVier.classList.toggle("sichtbar");
-	var buttoClick = document.querySelector("#button-click"); 
-    buttonClick.classList.toggle("buttonstylehover");
-     }*/
-
- 
 
  
 	function elementSichtbar() {   
@@ -71,12 +61,5 @@ function isElementInViewport(element) {
          document.querySelector(".box1ac").classList.add("slideright");
    }
    window.onscroll = null;
-}
+	}
 
- /*   var elemIsVisibleCircle = document.querySelector(".box3-content").offsetHeight;
-window.onscroll = function () {
-   if (elemIsVisibleCircle > 0) {
-         document.querySelector(".box3ab").classList.add("slidehorizont");
-   }
-   window.onscroll = null;
-}*/
