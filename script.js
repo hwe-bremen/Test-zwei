@@ -36,6 +36,11 @@ function isElementInViewport(element) {
     var boxVier = document.getElementById("box4"); 
     boxVier.classList.toggle("sichtbar");
      }
+	function elementhover() {   
+    var buttoClick = document.getElementById("button-click"); 
+    buttonClick.classList.toggle("buttonstylehover");
+     }  
+     
 
      document.getElementById('nav-click').addEventListener('click', elementSichtbarNav);
      function elementSichtbarNav() {   
