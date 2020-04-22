@@ -320,11 +320,13 @@ h3 {
 		text-shadow: 0 -.05em .05em rgba(0,0,0,.5);
  		font-size: 125%;
  		line-height: 1.5;
+ 		transition: 1s ease-in-out;
+ 		transform: translate(0em);
 	}
 	.buttonstylehover {
-		opacity: 0.9;
+		opacity: 0.8;
 		transition: 1s ease-in-out;
-		transform: translate(05em .8em);
+		transform: translateX(0.8em);
 	}
     #box5 {
         background-color: black;
