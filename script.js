@@ -29,13 +29,26 @@ function isElementInViewport(element) {
    window.addEventListener("load", callbackFunc);
    window.addEventListener("scroll", callbackFunc); 
    
-
- 
-   document.getElementById('button-click').addEventListener('click', elementSichtbar);
+   
+/*document.getElementById('button-click').addEventListener('click', elementSichtbar);
    function elementSichtbar() {   
     var boxVier = document.getElementById("box4"); 
     boxVier.classList.toggle("sichtbar");
 	var buttoClick = document.querySelector("#button-click"); 
+    buttonClick.classList.toggle("buttonstylehover");
+     }*/
+
+ var buttonzwei = document.getElementById('button-click')
+ buttonzwei.addEventListener('click', elementSichtbar);
+ buttonzwei.addEventListener('click', elementSichtbar2);
+ 
+ 
+   function elementSichtbar() {   
+    var boxVier = document.getElementById("box4"); 
+    boxVier.classList.toggle("sichtbar");
+    
+   function elementSichtbar2() { 
+	var buttonClick = document.querySelector("#button-click"); 
     buttonClick.classList.toggle("buttonstylehover");
      }
 	
