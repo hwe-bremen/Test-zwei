@@ -44,7 +44,7 @@ function isElementInViewport(element) {
 	function elementSichtbar() {   
     var boxVier = document.getElementById("box4"); 
     boxVier.classList.toggle("sichtbar");
-    
+    }
    function elementSichtbar2() { 
 	var buttonClick = document.getElementById("button-click"); 
     buttonClick.classList.toggle("buttonstylehover");
