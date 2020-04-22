@@ -33,13 +33,14 @@ function isElementInViewport(element) {
  
    document.getElementById('button-click').addEventListener('click', elementSichtbar);
    function elementSichtbar() {   
-    var boxVier = document.getElementById("box4"); 
+    var boxVier = this.document.getElementById("box4"); 
     boxVier.classList.toggle("sichtbar");
-     }
-	function elementhover() {   
-    var buttoClick = document.getElementById("button-click"); 
+	var buttoClick = this.document.querySelector("#button-click"); 
     buttonClick.classList.toggle("buttonstylehover");
-     }  
+     }
+	
+    
+     
      
 
      document.getElementById('nav-click').addEventListener('click', elementSichtbarNav);
