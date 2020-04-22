@@ -250,6 +250,7 @@ h3 {
     h3 {
         padding-bottom: 0.5em;
         border-bottom: 5px solid black;
+		border-top: 5px solid black;
     }
 
     /*End Box mit Schatten*/

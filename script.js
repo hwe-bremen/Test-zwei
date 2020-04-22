@@ -59,13 +59,13 @@ function isElementInViewport(element) {
 
      document.getElementById('nav-click').addEventListener('click', elementSichtbarNav);
      function elementSichtbarNav() {   
-      var navMin = document.getElementById("nav");  
-      navMin.classList.toggle("sichtbar-nav");
+     var navMin = document.getElementById("nav");  
+     navMin.classList.toggle("sichtbar-nav");
        }
 
-var elemIsVisible = document.querySelector(".box1").offsetHeight;
-window.onscroll = function () {
-   if (elemIsVisible > 0) {
+	var elemIsVisible = document.querySelector(".box1").offsetHeight;
+	window.onscroll = function () {
+   	if (elemIsVisible > 0) {
       document.querySelector(".box1a").classList.add("slideright");
        document.querySelector(".box1ab").classList.add("slideright");
          document.querySelector(".box1ac").classList.add("slideright");
