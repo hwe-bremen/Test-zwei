@@ -310,11 +310,11 @@ h3 {
     margin: 0 25% 0 25%;
     }
 	.buttonstyle {
+		margin: 0 auto;
 		padding: .3em .8em;
-		border: 1px solid rgba(0,0,0,.1);
-		background: #58a linear-
- 		gradient(hsla(0,0%,100%,.2), transparent);
-		border-radius: .2em;
+		border: 1px solid gray;
+		background-color: tomato;
+		border-radius: .4em;
 		box-shadow: 0 .05em .25em rgba(0,0,0,.5);
  		color: white;
 		text-shadow: 0 -.05em .05em rgba(0,0,0,.5);
