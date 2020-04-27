@@ -36,7 +36,7 @@ h3 {
 @media screen and (min-width: 700px ) {
    
     /*Menue*/
-    ul#nav-top {
+    nav.topmenu {
     margin: 0px;
     height: 40px;
     background-color: black;
@@ -446,7 +446,7 @@ h3 {
          /*   .sichtbar-nav {
         display: none;
           }  */           
-        ul#nav {
+        ul#nav-top {
         margin: 0px 8px 0px 8px;
         height: 40px;
         width: 100%;
