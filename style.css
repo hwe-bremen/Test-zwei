@@ -404,8 +404,8 @@ h3 {
     @media only screen and (max-width: 700px) {
     
     /* Beginn Navigation */ 
-
-    #navmin { 
+    
+ #navmin { 
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
@@ -434,49 +434,52 @@ h3 {
         transform-origin: left;
         transition: all 0.5s;
     } 
-      .hamburger-menu:hover .top {
+    #hamburger-menu:checked + .hamburger-menu .top {
         transform: rotate(45deg);
     } 
-      .hamburger-menu:hover .middle {
+    #hamburger-menu:checked + .hamburger-menu .middle {
         opacity: 0;
     }
-      .hamburger-menu:hover .bottom {
+       #hamburger-menu:checked + .hamburger-menu .bottom {
         transform: rotate(-45deg);
     }
-         .sichtbar-nav {
+         /*   .sichtbar-nav {
         display: none;
-          }             
+          }  */           
         ul#nav {
         margin: 0px 8px 0px 8px;
         height: 40px;
         width: 100%;
         z-index: 5;
+        position: sticky;
         transform: translateY(40px);
         top:  0;
         }
         li.menue { 
-        text-decoration: none;  
+            width: 100%;
+        text-decoration:none;  
         background-color: blueviolet;
-        margin-left: 4em;
+        list-style: none;
         }
         .hovermenue:hover {
             margin: 0px;
-            padding: 6px 10px;
-            background-color: blueviolet;
+            padding: 0px 0px;
           }
           li a {
               color: white;
               font-size: 1.5rem;
               line-height: 250%; 
-              text-decoration: none;
+              text-decoration:none;
           }
           #subnav li a {
-              color: black;   
+              color: black; 
+              font-size: 1.2rem;  
           }
           #subnav li {
-              text-decoration: none;
+              width: 100%;
               list-style: none;
               padding: 0.2em 0.4em;
+              background-color: rgb(154, 54, 248);
               border-bottom: 1px solid black;
           }
           #subnav li:hover  {
@@ -488,17 +491,29 @@ h3 {
           }
           .menue ul {
               position: relative;
-              display: none;
-              box-shadow:  .4em .4em 0em 0em black;
-          
+              display: none; 
           }
           .menue:hover ul {
               padding-left: 0em;
               display: block;
-              border: solid 2px black;
-              background-color: white;
-              transform: translateY(.5em);
+              background-color:blueviolet;
               color: black;
       
           }
+
+          #hamburger-menu:checked + .hamburger-menu  + nav.topmenu { 
+            max-height: 600px; 
+        }
+        nav.topmenu { 
+            transform: translateY(.3em);
+            height: auto; 
+            max-height: 0; 
+            overflow: hidden; 
+            transition: all 0.5s;
+            background-color: blueviolet;
+        }
+        input#hamburger-menu {
+            display: none;
+        }
+
 }
