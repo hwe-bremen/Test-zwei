@@ -47,11 +47,11 @@ function isElementInViewport(element) {
      
      
 
-     document.getElementById('nav-click').addEventListener('click', elementSichtbarNav);
+   /*  document.getElementById('nav-click').addEventListener('click', elementSichtbarNav);
      function elementSichtbarNav() {   
      var navMin = document.getElementById("nav");  
      navMin.classList.toggle("sichtbar-nav");
-       }
+       }*/
 
 	var elemIsVisible = document.querySelector(".box1").offsetHeight;
 	window.onscroll = function () {
