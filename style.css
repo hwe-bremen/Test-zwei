@@ -402,6 +402,8 @@ h3 {
 
 
     @media only screen and (max-width: 700px) {
+    
+    /* Beginn Navigation */ 
 
     #navmin { 
         display: flex;
@@ -449,14 +451,13 @@ h3 {
         height: 40px;
         width: 100%;
         z-index: 5;
-        position: sticky;
         transform: translateY(40px);
         top:  0;
         }
         li.menue { 
         text-decoration:none;  
         background-color: blueviolet;
-         margin-left: 4em;
+        margin-left: 4em;
         }
         .hovermenue:hover {
             margin: 0px;
@@ -467,13 +468,13 @@ h3 {
               color: white;
               font-size: 1.5rem;
               line-height: 250%; 
-              text-decoration:none;
+              text-decoration: none;
           }
           #subnav li a {
               color: black;   
           }
           #subnav li {
-              text-decoration:none;
+              text-decoration: none;
               list-style: none;
               padding: 0.2em 0.4em;
               border-bottom: 1px solid black;
