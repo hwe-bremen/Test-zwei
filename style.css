@@ -448,7 +448,7 @@ h3 {
     }
          /*   .sichtbar-nav {
         display: none;
-          }  */           
+                    
         ul#nav-top {
         margin: 0px 8px 0px 8px;
         height: 40px;
@@ -457,7 +457,7 @@ h3 {
         position: sticky;
         transform: translateY(40px);
         top:  0;
-        }
+        }}  */ 
         li.menue { 
             width: 100%;
         text-decoration:none;  
