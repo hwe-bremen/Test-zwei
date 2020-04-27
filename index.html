@@ -4,11 +4,20 @@
 <meta charset="utf-8"/>
 
 <head>
-    <meta name="viewport" content="width=device-width; initial-scale=1.0;" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
     <link href="style.css" rel="stylesheet">
+
      <body>
         <div id="navmin"> 
-                <ul id="nav" class="sichtbar-nav">    
+        <div>
+            <input type="checkbox" id="hamburger-menu">
+            <label for="hamburger-menu" class="hamburger-menu">
+                <div class="bar top"></div>
+                <div class="bar middle"></div>
+                <div class="bar bottom"></div>
+            </label> 
+            <nav class="topmenu">
+                <ul id="nav-top">    
                     <li class="menue"><a class="hovermenue" href="/positionzwei.html">Position eins</a>
                              <ul id="subnav">
                                 <li class="nodeco"><a href="/positionzwei.html">Position eins</a></li>
@@ -34,12 +43,9 @@
                             </ul>  
                      </li>                    
                 </ul> 
-                <div class="hamburger-menu" id="nav-click">
-                    <div class="bar top"></div>
-                    <div class="bar middle"></div>
-                    <div class="bar bottom"></div>
-                </div>  
-         </div>
+            </nav> 
+        </div>
+        </div>
   
         <div id="box">
                 <h1>Dies ist ein<br>Platzhalter für<br> die Head</h1><br>
