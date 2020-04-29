@@ -4,7 +4,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Bitter:wght@700&family=Suez+One&display=swap');
 
-
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+ul, ol {
+    padding-left: 1em;
+  }
 body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -41,7 +47,8 @@ h3 {
     height: 40px;
     background-color: black;
     z-index: 10;
-    position: sticky;
+    width: 100%;
+    position: fixed;
     top: 0;
     }
     li.menue {
@@ -405,26 +412,21 @@ h3 {
     @media only screen and (max-width: 700px) {
 
     #navmin {
-    	border: 2px solid green; 
-        display: block;
-        flex-direction: row;
-        justify-content: flex-end;
-        margin: 0px;
-        padding: 2px 8px 2px 0;
-        height: 40px;
+        height: 42px;
         background-color: black;
-        z-index: 10;
-        position: sticky;
-        top: 0;
+        width: 100%;
+        position: fixed;
     }
     .hamburger-menu {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-between;
+        padding: 0.2rem 1rem;
         height: 2.3rem;
         width: 2.3rem;
         cursor: pointer;
+        float: right;
     }  
       .hamburger-menu .bar {
         height: 5px;
@@ -445,22 +447,21 @@ h3 {
     }
          /*   .sichtbar-nav {
         display: none;
-          }  */           
-        ul#nav {
-        border: 2px solid green;
-        display: block;
-        margin: 0px 8px 0px 8px;
-        height: 40px;
-        z-index: 5;
-        position: sticky;
-        transform: translateY(40px);
-        top:  0;
+          }  */ 
+          
+        nav.topmenu { 
+            transform: translateY(41px);
+            height: auto; 
+            max-height: 0; 
+            overflow: hidden; 
+            transition: all 0.5s;
+            background-color: blueviolet;
+          }
+        ul#nav-top {
+        background-color: blueviolet;
         }
         li.menue {
-        border: 1px solid green;
         width: 100%;
-        text-decoration:none;  
-        background-color: blueviolet;
         list-style: none;
         }
         .hovermenue:hover {
@@ -502,20 +503,11 @@ h3 {
               color: black;
       
           }
-
           #hamburger-menu:checked + .hamburger-menu  + nav.topmenu { 
             max-height: 600px; 
-        }
-        nav.topmenu { 
-            transform: translateY(.3em);
-            height: auto; 
-            max-height: 0; 
-            overflow: hidden; 
-            transition: all 0.5s;
-            background-color: blueviolet;
         }
         input#hamburger-menu {
             display: none;
         }
 
-}
+    }
