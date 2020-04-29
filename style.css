@@ -404,7 +404,8 @@ h3 {
 
     @media only screen and (max-width: 700px) {
 
-    #navmin { 
+    #navmin {
+    	border: 2px solid green; 
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
@@ -446,7 +447,7 @@ h3 {
         display: none;
           }  */           
         ul#nav {
-        border: 1px solid green;
+        border: 2px solid yellow;
         margin: 0px 8px 0px 8px;
         height: 40px;
         width: 100%;
