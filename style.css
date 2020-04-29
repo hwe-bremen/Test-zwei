@@ -406,7 +406,7 @@ h3 {
 
     #navmin {
     	border: 2px solid green; 
-        display: flex;
+        display: block;
         flex-direction: row;
         justify-content: flex-end;
         margin: 0px;
@@ -447,10 +447,10 @@ h3 {
         display: none;
           }  */           
         ul#nav {
-        border: 2px solid yellow;
+        border: 2px solid green;
+        display: block;
         margin: 0px 8px 0px 8px;
         height: 40px;
-        width: 100%;
         z-index: 5;
         position: sticky;
         transform: translateY(40px);
