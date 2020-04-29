@@ -446,6 +446,7 @@ h3 {
         display: none;
           }  */           
         ul#nav {
+        border: 1px solid green;
         margin: 0px 8px 0px 8px;
         height: 40px;
         width: 100%;
@@ -454,8 +455,9 @@ h3 {
         transform: translateY(40px);
         top:  0;
         }
-        li.menue { 
-            width: 100%;
+        li.menue {
+        border: 1px solid green;
+        width: 100%;
         text-decoration:none;  
         background-color: blueviolet;
         list-style: none;
