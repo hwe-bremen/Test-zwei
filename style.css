@@ -521,8 +521,9 @@ h3 {
      	max-width: clamp(40%, 350px, 100%);
     }
     h1 {
-    font-size: 4rem;
-    padding: 2rem
+    font-size: 2.5rem;
+    padding-top: 3rem
+    padding-left: 0.5rem;
     margin: 0;
 	}
         
