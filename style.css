@@ -522,9 +522,8 @@ h3 {
     }
     h1 {
     font-size: 2.5rem;
-    padding-top: 3rem
-    padding-left: 0.5rem;
-    margin: 0;
+    padding: 0 1rem 0 1rem;
+    margin-top: 5rem;
 	}
         
 }
