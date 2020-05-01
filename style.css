@@ -417,6 +417,7 @@ h3 {
         background-color: black;
         width: 100%;
         position: fixed;
+        z-index: 15;
     }
     .hamburger-menu {
         display: flex;
@@ -513,4 +514,10 @@ h3 {
     .box1a p {
     font-size: 1.2rem; 
     }
+    .box1a {
+        padding: 1.2rem;
+        height: 550px;
+        min-height: 300px;
+    }
+        
 }
