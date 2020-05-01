@@ -510,5 +510,8 @@ h3 {
         input#hamburger-menu {
             display: none;
         }
-
+    }
+    .box1a p {
+        margin-top: 1.5rem;
+        font-size: calc(0.3rem + 1vh); 
     }
