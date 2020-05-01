@@ -13,6 +13,7 @@ ul, ol {
   }
 body {
     height: 100%;
+    width: 100%;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     display: flex;
@@ -24,13 +25,13 @@ h1, h2, h3 {
 }
 h1 {
     color: black;
-    font-size: calc(4em + 3vw);
+    font-size: clamp(3rem, 10vw, 8rem);
     letter-spacing: 0.05em;
     margin: 4vh 3vw 0.5vh 1vw;
 }
 h2 {
     color: black;
-    font-size: 350%;
+    font-size: calc(1.5rem + 3vh);
 }
 h3 {
     color: black;
@@ -125,10 +126,9 @@ h3 {
     /*Card-Design*/
 
     .box1 {
-    /*  position: relative; */
+        justify-content: space-evenly;
         display: flex;
         flex-direction: row;
-        justify-content: center; 
         flex-wrap: wrap;
     }
     /*div.box1a:nth-child(n+3){
@@ -136,13 +136,14 @@ h3 {
     }*/
     .box1a {
         display: flex;
+        flex: 1 1 auto;
         flex-direction: column;
-        align-items: flex-end;
-        margin: 30px; 
-        padding: 1em;
+        margin: 2rem 1rem;
+        padding: 1rem;
         background-color: white;
         height: 550px;
         min-height: 300px;
+        max-width: clamp(24%, 350px, 100%);
         box-shadow: 15px 15px 0px 0px black;
         position: relative;
         transition: transform cubic-bezier(0.5, 1.8, 0.8, 0.5) 2s;
@@ -151,24 +152,24 @@ h3 {
     transition: top 3s 3s;*/
     }
     .box1ab { 
-        position: relative;
+        flex: 1 1 auto;
         transition: transform cubic-bezier(0.5, 1.8, 0.8, 0.5) 2s;
         transition-duration: 1s;
     }
     .box1ac { 
-        position: relative;
+        flex: 1 1 auto; 
         transition: transform cubic-bezier(0.5, 1.8, 0.8, 0.5) 2s;
         transition-duration: 2s;	
     }
     .slideright {
-    transform: translateY(-200px);
+    transform: translateY(-150px);
     }
     .box1a:focus  {
         animation: elastic-grow .5s;  
     }
     .box1a h2 {
-        margin: 0em;
         padding: 0.2em;
+        margin-bottom: 2rem;
         height: 50%;
         background-image: linear-gradient(0deg, rgb(97, 201, 111) 10% ,hsl(150, 61%, 25%) 80%);
 
@@ -176,7 +177,7 @@ h3 {
     .box1a p {
         padding-bottom: 1em;
         text-align: left;
-        font-size: calc(0.6em + 0.6vw); 
+        font-size: calc(0.3rem + 2vh); 
     }
     .boxmin {
         width: 20%;
