@@ -169,12 +169,12 @@ h3 {
     }
     .box1a h2 {
         padding: 0.2em;
-        margin-bottom: 2rem;
         height: 50%;
         background-image: linear-gradient(0deg, rgb(97, 201, 111) 10% ,hsl(150, 61%, 25%) 80%);
 
     }
     .box1a p {
+        margin-top: 2rem;
         padding-bottom: 1em;
         text-align: left;
         font-size: calc(0.3rem + 2vh); 
