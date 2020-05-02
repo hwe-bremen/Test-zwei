@@ -520,7 +520,7 @@ h3 {
         height: 550px;
         min-height: 300px;
      	max-width: clamp(40%, 350px, 100%);
-     	box-shadow: -15px 15px 0px  black, 15px 15px 0px  black;
+     	box-shadow: 15px 15px 0px  black, 15px -15px 0px  black;
     
     h1 {
     font-size: 3rem;
