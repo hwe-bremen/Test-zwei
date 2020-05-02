@@ -538,12 +538,9 @@ h3 {
         margin: 1rem 3% 1rem 3%;
     }
         #boxschatten::before {
-        position: absolute;
-        content: "";
-        bottom: 0.5em;  right: 5em;
-        height: 100%;
-        width: 100%;
-        transform: translate(-6.5em, 2em);
         
+        width: 105%;
+        transform: translate(-6.5em, 2em);
+    }    
         
 }
