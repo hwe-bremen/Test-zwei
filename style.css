@@ -258,7 +258,7 @@ h3 {
     }
 
     h3 {
-        padding: 0.5em 0 0.5em 0;
+        padding: 0.5rem 0.3rem 0.5rem 0.3rem;
         border-bottom: 5px solid black;
 		border-top: 5px solid black;
     }
@@ -536,7 +536,14 @@ h3 {
 	 #boxschatten {
 	    padding: 0.4rem 0.2rem 0.4rem 0.2rem;  
         margin: 1rem 3% 1rem 3%;
-   
     }
+        #boxschatten::before {
+        position: absolute;
+        content: "";
+        bottom: 0.5em;  right: 5em;
+        height: 100%;
+        width: 100%;
+        transform: translate(-6.5em, 2em);
+        
         
 }
