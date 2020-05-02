@@ -529,5 +529,13 @@ h3 {
     padding: 0 1rem 0 1rem;
     margin-top: 3rem;
 	}
+	h3 {
+    font-size: 120%%;
+    letter-spacing: 0.01em;
+	}
+	 #boxschatten {
+        margin: 2em 3%% 3em 20%;
+   
+    }
         
 }
