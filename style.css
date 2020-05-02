@@ -515,13 +515,15 @@ h3 {
     font-size: 1.2rem; 
     }
     .box1a {
+    	margin: 2 0;
         padding: 0.8rem;
         height: 550px;
         min-height: 300px;
      	max-width: clamp(40%, 350px, 100%);
-    }
+     	box-shadow: 15px -15px 0px  black, 15px 15px 0px  black;
+    
     h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     padding: 0 1rem 0 1rem;
     margin-top: 5rem;
 	}
