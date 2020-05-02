@@ -526,12 +526,13 @@ h3 {
      }
     
     h1 {
-    	margin: 0.5rem 0;
+    	
         font-size: 3rem;
         padding: 0 1rem 0 1rem;
         margin-top: 3rem;
 	}
 	h3 {
+		margin: 0.5rem 0;
         font-size: 120%;
         letter-spacing: 0.01em;
 	}
@@ -539,9 +540,10 @@ h3 {
 	    padding: 0.4rem 0.3rem 0.4rem 0.3rem;  
         margin: 1rem 3% 1rem 3%;
     }
-     #boxschatten::before {  
+     #boxschatten::before {
+     	bottom: 0.5em;  right: 5em; left: 5em; 
         width: 100%;
-        transform: translate(-6.5em, 20em);
+        transform: translate(-6.5em, 5em);
     }    
         
 }
