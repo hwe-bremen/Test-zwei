@@ -241,9 +241,8 @@ h3 {
     #boxschatten {
         position: relative;
         background-image: linear-gradient(145deg, transparent 5%, rgb(97, 201, 111) 5%,  rgb(97, 201, 111) 95% ,transparent 10%);
-    /* background-color: cornflowerblue;*/
         margin: 3em 20% 6em 20%;
-        padding: 2%;
+        padding: 3%;
         text-align: center;
     }
     #boxschatten::before {
@@ -532,13 +531,13 @@ h3 {
         margin-top: 3rem;
 	}
 	h3 {
-		margin: 0.5rem 0;
+		margin: 1rem 0.5rem;
         font-size: 120%;
         letter-spacing: 0.01em;
 	}
 	 #boxschatten {
 	    padding: 0.4rem 0.3rem 0.4rem 0.3rem;  
-        margin: 1rem 3% 1rem 3%;
+        margin: 1rem 3%;
     }
      #boxschatten::before {
      	bottom: 0.5em;  right: 5em; left: 5em; 
