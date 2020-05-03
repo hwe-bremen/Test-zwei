@@ -26,8 +26,9 @@ h1, h2, h3 {
 h1 {
     color: black;
     font-size: clamp(3rem, 10vw, 8rem);
+    line-height: 110%;
     letter-spacing: 0.05em;
-    margin: 4vh 3vw 0.5vh 1vw;
+    margin: 6vh 6vw 0.5vh 1vw;
 }
 h2 {
     color: black;
@@ -242,7 +243,7 @@ h3 {
         position: relative;
         background-image: linear-gradient(145deg, transparent 5%, rgb(97, 201, 111) 5%,  rgb(97, 201, 111) 95% ,transparent 10%);
         margin: 3em 20% 6em 20%;
-        padding: 5% 3%;
+        padding: 3vh 4vw;
         text-align: center;
     }
     #boxschatten::before {
@@ -257,7 +258,7 @@ h3 {
     }
 
     h3 {
-        padding: 0.5rem 0.3rem 0.5rem 0.3rem;
+        padding: 0.8rem 0.3rem;
         margin: 0.7rem 0;
         border-bottom: 5px solid black;
 		border-top: 5px solid black;
@@ -515,34 +516,32 @@ h3 {
         font-size: 1.2rem; 
     }
     .box1a {
-    	margin: 2 0;
         padding: 0.8rem;
         height: 550px;
         min-height: 300px;
      	max-width: clamp(40%, 350px, 100%);
-     	box-shadow: 15px 15px 0px  black,
-     				-15px 15px 0px  black;
+     	box-shadow: 16px 15px 0px  black,
+     				-16px 15px 0px  black;
      }
-    
+     .slideright {
+        transform: translateY(-250px);
+    }
     h1 {
-    	
-        font-size: 3rem;
+        font-size: 4rem;
         padding: 0 1rem 0 1rem;
-        margin-top: 3rem;
+        margin: 4rem 0rem 0.4rem 0;
 	}
 	h3 {
-		margin: 6% 3%;
-        font-size: 120%;
+        margin: 0.8vh 3vw 2vh 3vw;
+        font-size: 150%;
         letter-spacing: 0.01em;
 	}
-	 #boxschatten {
-	    padding: 0.4rem 0.3rem 0.4rem 0.3rem;  
+	 #boxschatten { 
         margin: 1rem 3%;
+        padding: 2vh 4vw;
     }
      #boxschatten::before {
-     	bottom: 0.5em;  right: 5em; left: 5em; 
-        width: 100%;
-        transform: translate(6.5em, 5em);
+        width: 115%;
     }    
         
 }
