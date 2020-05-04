@@ -304,11 +304,11 @@ h3 {
     .box3a {
         background-image: linear-gradient(90deg, rgb(255, 0, 149) 20% ,purple 90%);
         border: solid 10px black;
-        width: 400px;
-        height: 400px;
+        width: 10%;
+        height: 10%;
         margin: 5em;
         text-align: center;
-        border-radius: 200px;
+        border-radius: 5%;
         box-shadow: 15px 15px 0px 0px black;
         transition: transform cubic-bezier(0.5, 1.8, 0.8, 0.5) 2s;
     }
