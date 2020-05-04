@@ -310,19 +310,20 @@ h3 {
         margin: 4em 0;
         text-align: center;
         border-radius: 175px;
-        box-shadow: 15px 15px 0px 0px black;
+        box-shadow: 12px 12px 0px black;
         transition: transform cubic-bezier(0.5, 1.8, 0.8, 0.5) 2s;
     }
     #box4 {
         display: flex;
         align-content: center;
+        justify-content: space-evenly;
         margin: 0 auto;
         height: auto;
         background-color: tomato;
     }
-    .content {
+  /*  .content {
     margin: 0 25% 0 25%;
-    }
+    }*/
 	.buttonstyle {
 		margin: 0 auto;
 		padding: .3em .8em;
@@ -520,7 +521,7 @@ h3 {
      	box-shadow: 16px 15px 0px  black,
      				-16px 15px 0px  black;
      }
-     .slideright {
+    .slideright {
         transform: translateY(-180px);
     }
     h1 {
@@ -539,6 +540,17 @@ h3 {
     }
      #boxschatten::before {
         width: 115%;
+    }
+    .box3a {
+        background-image: linear-gradient(90deg, rgb(255, 0, 149) 20% ,purple 90%);
+        border: solid 5px black;
+        width: 150px   ;
+        height: 150px;
+        margin: 2em 0;
+        text-align: center;
+        border-radius: 75px;
+        box-shadow: 6px 6px 0px black;
+        transition: transform cubic-bezier(0.5, 1.8, 0.8, 0.5) 2s;
     }    
         
 }
