@@ -25,7 +25,7 @@ h1, h2, h3 {
 }
 h1 {
     color: black;
-    font-size: clamp(3rem, 10vw, 8rem);
+    font-size: -webkit-clamp(3rem, 10vw, 8rem);
     line-height: 110%;
     letter-spacing: 0.05em;
     margin: 6vh 6vw 0.5vh 1vw;
