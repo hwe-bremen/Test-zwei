@@ -394,10 +394,10 @@ h3 {
         transition: transform cubic-bezier(0.5, 1.8, 0.8, 0.5) 2s;
     }
     .slidehorizont {
-    transform: translateX(-25%);
+    transform: translateX(-30%);
     }
     .slidehorizont.box3ac {
-    transform: translateX(25%);
+    transform: translateX(30%);
     }
     .slidehorizont.visible {
         transform:translateX(0);
