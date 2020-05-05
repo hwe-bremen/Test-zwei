@@ -541,6 +541,10 @@ h3 {
      #boxschatten::before {
         width: 115%;
     }
+    .box3 {
+    display: flex;
+    flex-direction: columns;
+    }
      .box3-content {
         display: flex;
         flex-direction: row;
